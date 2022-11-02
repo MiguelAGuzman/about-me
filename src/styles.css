@@ -118,8 +118,11 @@ p {
 
 .headshot {
     width: 300px;
-    border-radius: 150px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
     margin-left: 80px;
+    
 }
 
 .headshot-container {
@@ -149,7 +152,7 @@ p {
 .project-image {
     margin-top: 25px;
     width: 250px;
-    border-radius: 125px;
+    border-radius: 20px;
 }
 
 hr {
